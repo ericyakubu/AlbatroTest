@@ -1,0 +1,42 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 10px;
+  width: 550px;
+  margin: 0 auto;
+  align-items: center;
+
+  p {
+    color: white;
+
+    a {
+      font-weight: 900;
+    }
+  }
+}
+
+.Logo {
+  margin-bottom: 50px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 85px;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+
+  button {
+    margin-top: 20px;
+  }
+
+  a {
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.75);
+  }
+}

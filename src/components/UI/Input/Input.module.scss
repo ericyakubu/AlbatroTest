@@ -1,0 +1,54 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .Label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    text-transform: lowercase;
+    color: rgba(128, 128, 128, 0.75);
+    font-size: 18px;
+    font-style: italic;
+  }
+
+  input {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.25);
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.9);
+  }
+}
+
+.Checkbox {
+  width: 100%;
+  margin-top: 20px;
+  color: rgba(128, 128, 128, 0.75);
+
+  input {
+    transform: translateY(-15%);
+
+    border: #51bfdd; // TODO: customize
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  label {
+    margin-left: 10px;
+    color: rgba(128, 128, 128, 0.75);
+    font-size: 20px;
+  }
+}
+
+.Error {
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 67, 67, 0.9);
+}
